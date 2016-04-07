@@ -1,0 +1,21 @@
+﻿<UserControl x:Class="KinectWPFOpenCV.points_view"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="126" d:DesignWidth="244">
+    <Grid>
+        <ListView x:Name="point_lv" HorizontalAlignment="Left" Height="126" VerticalAlignment="Top" Width="244">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Nom" Width="50" DisplayMemberBinding="{Binding Path=myName}" />
+                    <GridViewColumn Header="Avant" Width="97" DisplayMemberBinding="{Binding Path=myOldCoord}"/>
+                    <GridViewColumn Header="Après" Width="200" DisplayMemberBinding="{Binding Path=myNewCoord}"/>
+
+                </GridView>
+            </ListView.View>
+        </ListView>
+
+    </Grid>
+</UserControl>
