@@ -1,0 +1,26 @@
+==============================================================
+INSTALLER ET REPRENDRE LE CODE QUADTOWERS
+==============================================================
+
+****Afin d'executer le code du projet PPE 1534 QuadTowers pour l'utiliser avec une Kinect, veuillez suivre les instructions suivantes :
+
+- S'assurer qu'une Kinect est connectée au PC
+
+- Lancer le fichier bin/Debug/QuadTowers.exe
+
+
+
+****Afin de pouvoir reprendre le code du projet PPE 1534 QuadTowers pour le consulter ou l'améliorer, veuillez suivre les instructions suivantes :
+
+- Installer Visual Studio 2013 (Community)
+
+- Installer le SDK Kinect de Microsoft, version 1.8
+
+- Mettre les fichiers .dll dans le dossier "Réferences" dans le fichier de votre ordinateur où se trouvent les autres .dll référencés dans un projet Visual Studio
+
+- S'assurer qu'une Kinect est connectée au PC
+
+(- Il peut être utile d'installer Emgu et OpenCV, si vous obtenez des erreurs quant aux bibliothèques dynamiques Emgu)
+
+
+Une fois ces différentes étapes effectuées, le projet peut-être lancé sous Visual Studio au travers du fichier "QuadTowers.csproj"
